@@ -62,6 +62,7 @@ body{
     display                : block;
     margin                 : auto;
     padding                : 25px 10px 10px 10px;
+    
 }
 
 #home-logo-text{
@@ -78,6 +79,7 @@ body{
     color                :white;
     font-size            : 25px;
     font-weight          : bold;
+    
     text-align           : center;
     border               : 5px solid white;
     
@@ -127,98 +129,101 @@ body{
 
 /*============RECIPE PAGES============*/
 #recipe{
-    padding-top:50px;
+    padding-top           : 50px;
 }
 
 /*======RECIPE DETAILS======*/
-.recipe-detals img{
-    width:100%:
+.recipe-details img{
+    width                 : 90%;
+    padding-left          : 55px;
+    padding-right         : 20px;
+    
 }
 
 .recipe-details h1{
-    font-size: 25px;
-    text-align:center;
+    font-size             : 25px;
+    text-align            : center;
     
-    border: 5px solid #1a1a1a;
-    margin:10px;
-    padding:5px;
+    border                : 5px solid #1a1a1a;
+    margin                : 10px;
+    padding               : 5px;
 }
 
 .recipe-details h2{
-    font-size: 25px;
-    text-align:left;
-    margin:0px;
-    margin-left:20px;
+    font-size             : 25px;
+    text-align            :left;
+    margin                :0px;
+    margin-left           :20px;
 }
 
 .recipe-details-info{
-    margin-left: 25px;
-    margin-right:25px;
+    margin-left           : 25px;
+    margin-right          :25px;
 }
 
 .recipe-details-info p{
-    font-size:13px;
-    display: inline-block;
+    font-size             :13px;
+    display               : inline-block;
 }
 
 .recipe-details-ingredients label{
-    line-height: 25px;
-    margin-left: 5px;
+    line-height           : 25px;
+    margin-left           : 5px;
 }
 
 .recipe-details-ingredients input{
-    margin-left: 20px;
+    margin-left           : 20px;
 }
 
 .recipe-details-steps{
-    padding-top:20px;
+    padding-top           :20px;
 }
 
 .recipe-details-steps ol{
-    padding-left:35px;
+    padding-left          :35px;
 }
 
 /*============RESPNSIVE LAYOUT============*/
 @media only screen and(min-width: 600px){
     #meals{
-        width:80%;
-        margin:auto;
+        width             :80%;
+        margin            :auto;
     }
     
     #recipe{
-        width:80%;
-        margin:auto;
+        width             :80%;
+        margin            :auto;
     }
  
 @media only screen and (min-width: 1000px) {
       #meals{
-        width:60%;
-        margin:auto;
+        width             :60%;
+        margin            :auto;
     }
     
     #recipe{
-        width:60%;
-        margin:auto;
+        width             :60%;
+        margin            :auto;
     }
  
 @media only screen and (min-width: 1500px) {
       #meals{
-        width:40%;
-        margin:auto;
+        width             :40%;
+        margin            :auto;
     }
     
     #recipe{
-        width:40%;
-        margin:auto;
+        width             :40%;
+        margin            :auto;
     }
 
     @media only screen and (min-width:720px) {
         .body-home{
-            background-image:url('images/background-01-land.png');
+            background-image    :url('images/background-01-land.png');
         }
         
         .body-meals{
-            background-image:url('images/background-02-land.png');
+            background-image    :url('images/background-02-land.png');
         }
     }  
     
